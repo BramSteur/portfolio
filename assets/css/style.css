@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+#intro {
+    padding-top: 9%;
+    padding-left: 6%;
+    color: #f2f2f2;
+}
+
+.name {
+    padding-top: 1%;
+    padding-left: 5%;
+    font-size: 250%;
+    color: #f2f2f2;
+}
+
+.headerimg {
+    /* width: 300px;
+    height: 600px;
+   background-image: url('../img/bramwedstrijd.jpg');
+   background-repeat: no-repeat;
+   background-position-x: 550%;
+   background-position-y: -10%;
+   border-radius: 50px; */
+}
+
+.headerimg img {
+    border-radius: 30%;
+    margin-left: -10%;
+    margin-top: -10%;
+    border-color: #544343;
+    border-style: solid;
+}
+
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .name {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  /* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    /* position: absolute; */
+    position: fixed;
+    /* position: static;  */
+    /* position: relative; */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #navbarabout {
+    overflow: hidden;
+    background-color: #333;
+    color: #f2f2f2;
+    /* position: absolute; */
+    position: fixed;
+    /* position: static;  */
+    /* position: relative; */
+    width: 100%;
+  }
+
+  #navbarabout h1 {
+    padding: 1%;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  /* Navbar links */
+  #navbarabout a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #navbarabout h1 {
+    padding: 1%;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+  body {
+    background-color: #626D58;
+  }
+
+  .bram {
+    color: #f2f2f2;
+    background-color: #5E7E55;
+    margin-top: -10%;
+  }
